@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".RegisterActivity">
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/Register_Email"
+        android:hint="email"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inpiuts"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"/>
+    <EditText
+        android:id="@+id/Register_password"
+        android:hint="password"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_no_encryption_black_24dp"
+        android:background="@drawable/inpiuts"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/Register_ConfirmPassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_no_encryption_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:background="@drawable/inpiuts"/>
+
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:text="Create Account"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

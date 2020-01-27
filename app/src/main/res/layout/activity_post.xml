@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".PostActivity">
+
+    <include
+        android:id="@+id/Updat_post_page_Toolbar"
+        layout="@layout/app_bar_layout"
+        />
+    <ImageView
+        android:id="@+id/imageButton_PostActivity"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="55dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/add_post_24dp"/>
+    <EditText
+        android:id="@+id/editTxt_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:background="@drawable/inpiuts"
+        android:inputType="textMultiLine"
+        android:hint="write something about image here..."
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/updatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="Update Post"
+        android:padding="10dp"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
